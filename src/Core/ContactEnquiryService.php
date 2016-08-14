@@ -32,7 +32,7 @@ class ContactEnquiryService
     }
 
     /**
-     * Records an contact enquiry.
+     * Records a contact enquiry.
      *
      * @param string   $email
      * @param string   $name

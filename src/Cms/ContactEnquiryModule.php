@@ -41,7 +41,7 @@ class ContactEnquiryModule extends CrudModule
         $module->name('contact-enquiries');
 
         $module->metadata([
-            'icon' => 'question-circle',
+            'icon' => 'comment',
         ]);
 
         $module->labelObjects()->fromCallback(function (ContactEnquiry $contactEnquiry) {

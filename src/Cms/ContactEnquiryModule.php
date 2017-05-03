@@ -88,6 +88,7 @@ class ContactEnquiryModule extends CrudModule
                 Field::create('email', 'Email')->email(),
             ]));
 
+            $table->mapProperty(ContactEnquiry::SUBJECT)->to(Field::create('subject', 'Subject')->string());
             $table->mapProperty(ContactEnquiry::EMAIL)->toComponent('from.email');
             $table->mapProperty(ContactEnquiry::NAME)->toComponent('from.name');
             $table->mapProperty(ContactEnquiry::CREATED_AT)->to(Field::create('created_at', 'Created At')->dateTime());

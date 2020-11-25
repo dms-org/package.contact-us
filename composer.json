@@ -15,9 +15,9 @@
         }
     },
     "require": {
-        "php": ">=7.0.0",
-        "dms-org/core": "^0.8",
-        "dms-org/common.structure": "^0.8"
+        "php": ">=7.1",
+        "dms-org/core": "^0.9.0",
+        "dms-org/common.structure": "^0.9.0"
     },
     "autoload-dev": {
         "psr-4": {
@@ -26,6 +26,6 @@
         }
     },
     "require-dev": {
-        "dms-org/common.testing": "dev-master"
+        "dms-org/common.testing": "^0.9.0"
     }
 }
